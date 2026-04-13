@@ -1,5 +1,4 @@
-# WT901BLE-Arm-MoCap-Blender
-# WT901BLE Arm MoCap to Blender
+# WT901BLE Based Arm Motion Capture to Blender
 
 A lightweight implementation for real-time arm motion capture using the **WT901BLE (Bluetooth Low Energy)** sensor. This project bridges hardware orientation data with Blender armatures via a virtual serial port bridge.
 
@@ -9,10 +8,10 @@ This project is inspired by the logic from [T-K-233/Dual-MPU6050-Motion-Sync](ht
 ---
 
 ## 🔄 System Architecture
+
 The data flows from the physical sensor to the Blender 3D environment via a virtual COM bridge:
 
-![System Workflow](https://v1.nitrocdn.com/dQZpXGkXmXyXoXzX/assets/static/optimized/rev-12345/workflow-placeholder.png) 
-*(Note: Replace this link with your generated flowchart image or use the description below)*
+![System Workflow](./demo/diagram.png)
 
 ### Data Pipeline:
 1. **WT901BLE Sensor**: Captures 9-axis physical motion (Quaternions).
@@ -25,8 +24,8 @@ The data flows from the physical sensor to the Blender 3D environment via a virt
 ---
 
 ## 📺 Demo
-![Arm MoCap Demo](./docs/demo.gif)
-*(Place your gif in a 'docs' folder or update this path)*
+![Arm MoCap Demo](./demo/demo.gif)
+
 
 ---
 
